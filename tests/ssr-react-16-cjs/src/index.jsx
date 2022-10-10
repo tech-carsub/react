@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, TextArea, Card } from '@fabric-ds/react';
+import { Button, TextArea, Card } from '@honk/react';
 
 export default function App() {
   const [selected, setSelected] = React.useState(false);

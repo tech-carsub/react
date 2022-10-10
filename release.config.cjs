@@ -22,7 +22,7 @@ module.exports = {
       {
         notifyOnSuccess: false,
         notifyOnFail: false,
-        packageName: '@fabric-ds/react',
+        packageName: '@honk-ds/react',
         branchesConfig: [
           {
             pattern: 'main',

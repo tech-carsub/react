@@ -6,7 +6,7 @@ import {
   useRecompute as recompute,
   arrowLabels,
 } from '@fabric-ds/core/attention';
-import { attention as c } from '@fabric-ds/css/component-classes';
+import { attention as c } from '@honk-ds/css/component-classes';
 import { ArrowProps, AttentionProps } from './props';
 
 export function Attention(props: AttentionProps) {

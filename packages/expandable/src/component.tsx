@@ -2,7 +2,7 @@ import { classNames } from '@chbphone55/classnames';
 import {
   box as boxClasses,
   buttonReset,
-} from '@fabric-ds/css/component-classes';
+} from '@honk-ds/css/component-classes';
 import React from 'react';
 import { ExpandTransition, UnstyledHeading } from '../../_helpers';
 import { ExpandableProps } from './props';

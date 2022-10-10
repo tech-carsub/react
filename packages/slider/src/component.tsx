@@ -1,6 +1,6 @@
 import { classNames } from '@chbphone55/classnames';
 import { createHandlers, useDimensions } from '@fabric-ds/core/slider';
-import { slider as c } from '@fabric-ds/css/component-classes';
+import { slider as c } from '@honk-ds/css/component-classes';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { SliderProps } from './props';
 

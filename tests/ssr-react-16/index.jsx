@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, TextArea } from '@fabric-ds/react';
+import { Button, TextArea } from '@honk/react';
 
 export default function App() {
   return (

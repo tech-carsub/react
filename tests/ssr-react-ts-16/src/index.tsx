@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, TextArea, Card, Toggle, Combobox } from '@fabric-ds/react';
+import { Button, TextArea, Card, Toggle, Combobox } from '@honk/react';
 
 function useSWMatch(term) {
   const [characters, setCharacters] = React.useState([]);

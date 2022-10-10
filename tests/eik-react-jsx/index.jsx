@@ -3,7 +3,7 @@ import ReactDom from 'https://assets.finn.no/npm/@pika/react-dom/v16/index.js';
 import {
   Button,
   TextArea,
-} from 'https://assets.finn.no/pkg/@fabric-ds/react/v0/index.js';
+} from 'https://assets.finn.no/pkg/@honk-ds/react/v0/index.js';
 
 function App() {
   return (

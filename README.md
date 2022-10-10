@@ -1,6 +1,6 @@
-# Fabric React
+# Honk React
 
-Reacts components exported under `@fabric-ds/react`.
+Reacts components exported under `@honk-ds/react`.
 
 ## Development
 
