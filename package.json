@@ -1,6 +1,6 @@
 {
   "name": "@honk-ds/react",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "repository": "git@github.com:tech-carsub/react.git",
   "license": "ISC",
   "type": "module",
@@ -103,7 +103,7 @@
   "dependencies": {
     "@chbphone55/classnames": "^2.0.0",
     "@fabric-ds/core": "0.0.15",
-    "@honk-ds/css": "^0.0.4",
+    "@honk-ds/css": "^0.0.13",
     "d3-scale": "^4.0.2",
     "react-focus-lock": "^2.5.2",
     "react-spring": "^9.0.0",
