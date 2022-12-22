@@ -14,8 +14,7 @@ function Title({ id, isInvalid, title, optional }) {
     >
       {title}
       {optional && (
-        <span className="pl-2 font-normal text-14 text-gray-500">
-          {' '}
+        <span className="pl-8 font-normal text-14 text-gray-500">
           (valgfritt)
         </span>
       )}
@@ -41,7 +40,8 @@ export function Toggle(props: ToggleProps) {
   const isInvalid = props.invalid;
   const isRadioGroup = props.type === 'radio' || props.type === 'radio-button';
 
-  const isControlled = !!props.selected || !!props.checked;
+  const isControlled =
+    props.selected !== undefined || props.checked !== undefined;
 
   return (
     <fieldset
@@ -73,6 +73,7 @@ export function Toggle(props: ToggleProps) {
             label={props.label}
             checked={props.checked}
             defaultChecked={props.defaultChecked}
+            indeterminate={props.indeterminate}
             // @ts-ignore TODO: typecheck
             onChange={(e: boolean) => props.onChange(e)}
             name={`${id}:toggle`}
