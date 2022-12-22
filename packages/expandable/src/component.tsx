@@ -59,7 +59,7 @@ export function Expandable(props: ExpandableProps) {
         >
           <div className="flex justify-between align-center">
             {typeof title === 'string' ? (
-              <p>{title}</p>
+              <p className={"sm:text-12 md:text-17"}>{title}</p>
             ) : (
               title
             )}
