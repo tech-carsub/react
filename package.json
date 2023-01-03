@@ -1,6 +1,6 @@
 {
   "name": "@honk-ds/react",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "repository": "git@github.com:tech-carsub/react.git",
   "license": "ISC",
   "type": "module",
@@ -101,7 +101,7 @@
   "dependencies": {
     "@chbphone55/classnames": "^2.0.0",
     "@fabric-ds/core": "0.0.15",
-    "@honk-ds/css": "^0.0.40",
+    "@honk-ds/css": "^0.0.41",
     "react-focus-lock": "^2.5.2",
     "resize-observer-polyfill": "^1.5.1",
     "scroll-doctor": "^1.0.0"

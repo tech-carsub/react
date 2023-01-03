@@ -59,14 +59,14 @@ export function Expandable(props: ExpandableProps) {
         >
           <div className="flex justify-between align-center">
             {typeof title === 'string' ? (
-              <p className={"sm:text-12 md:text-17"}>{title}</p>
+              <p className={"md:text-17"}>{title}</p>
             ) : (
               title
             )}
             {chevron && (
               <div
                 className={classNames({
-                  'self-center transform transition-transform': true,
+                  'self-center mb-8 transform transition-transform': true,
                   '-rotate-180': stateExpanded,
                   'relative left-8': !box,
                   'box-chevron': box,

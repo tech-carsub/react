@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, TextArea } from '@honk/react';
+import { Button, TextArea } from '@honk-ds/react';
 
 export default function App() {
   return (
