@@ -1,6 +1,6 @@
 {
   "name": "@honk-ds/react",
-  "version": "0.0.11",
+  "version": "0.0.10",
   "repository": "git@github.com:tech-carsub/react.git",
   "license": "ISC",
   "type": "module",
