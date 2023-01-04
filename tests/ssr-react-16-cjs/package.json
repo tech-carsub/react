@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fabric-ds/react": "*",
+    "@honk-ds/react": "*",
     "fastify": "^3.22.0",
     "react-dom": "16.14.0"
   },

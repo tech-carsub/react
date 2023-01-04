@@ -8,6 +8,6 @@ declare module '*.module.css' {
   export default classes;
 }
 
-declare module '@fabric-ds/css';
-declare module '@fabric-ds/css/component-classes';
-declare module '@fabric-ds/css/tailwind-css';
+declare module '@honk-ds/css';
+declare module '@honk-ds/css/component-classes';
+declare module '@honk-ds/css/tailwind-css';

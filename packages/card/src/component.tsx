@@ -1,5 +1,5 @@
 import React from 'react';
-import { card as c } from '@fabric-ds/css/component-classes';
+import { card as c } from '@honk-ds/css/component-classes';
 import { classNames } from '@chbphone55/classnames';
 import { CardProps } from './props';
 import { useLogDeprecationWarning } from '../../utils/src';

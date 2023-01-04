@@ -6,7 +6,7 @@ import {
   Toggle,
   Combobox,
   Clickable,
-} from '@fabric-ds/react';
+} from '@honk-ds/react';
 
 function useSWMatch(term) {
   const [characters, setCharacters] = React.useState([]);

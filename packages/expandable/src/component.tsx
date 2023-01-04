@@ -2,7 +2,7 @@ import { classNames } from '@chbphone55/classnames';
 import {
   box as boxClasses,
   buttonReset,
-} from '@fabric-ds/css/component-classes';
+} from '@honk-ds/css/component-classes';
 import React from 'react';
 import { ExpandTransition, UnstyledHeading } from '../../_helpers';
 import { ExpandableProps } from './props';
@@ -59,14 +59,14 @@ export function Expandable(props: ExpandableProps) {
         >
           <div className="flex justify-between align-center">
             {typeof title === 'string' ? (
-              <span className="h4">{title}</span>
+              <p className={"md:text-17"}>{title}</p>
             ) : (
               title
             )}
             {chevron && (
               <div
                 className={classNames({
-                  'self-center transform transition-transform': true,
+                  'self-center mb-8 transform transition-transform': true,
                   '-rotate-180': stateExpanded,
                   'relative left-8': !box,
                   'box-chevron': box,
